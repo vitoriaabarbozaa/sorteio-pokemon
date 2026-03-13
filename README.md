@@ -23,7 +23,7 @@ O usuário clica em um botão e o sistema gera um ID aleatório (de 1 a 1025). A
 * **JavaScript:** Lógica principal, geração de números aleatórios e consumo da API nativo do navegador.
 
 ## 🔗 Link do Projeto
-* **Deploy:** https://vitoriaabarbozaa.github.io/sorteio-pokemon/r
+* **Deploy:** https://vitoriaabarbozaa.github.io/sorteio-pokemon/
 
 ## 👤 Desenvolvido por
 **Vitória Barboza** <br>
