@@ -1,15 +1,20 @@
 const botao = document.getElementById("btn-sortear");
 const container = document.getElementById("pokemon-container");
+const cardInicial = document.querySelector(".card-inicial");
 
 const MAX_POKEMON = 1025;
 
 botao.addEventListener("click", sortearPokemon);
 
 function sortearPokemon(){
+container.parentElement.insertBefore(botao, container);
+if(cardInicial){
+cardInicial.style.display = "none";
+}
 
 let numero = Math.floor(Math.random() * MAX_POKEMON) + 1;
 
-container.innerHTML = "Buscando Pokémon...";
+container.innerHTML = "<p style='text-align:center; margin-top: 20px;'>Buscando Pokémon...</p>";
 
 fetch("https://pokeapi.co/api/v2/pokemon/" + numero)
 
