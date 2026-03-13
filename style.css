@@ -10,7 +10,7 @@ background:#f2f2f2;
 display:flex;
 flex-direction:column;
 align-items:center;
-min-height:100vh;
+min-height:100vh; /* ocupa uma altura mínima de 100% da viewport */
 color:#333;
 }
 
@@ -26,9 +26,9 @@ padding:20px;
 width:100%;
 max-width:400px;
 padding:20px;
-display:flex;
-flex-direction:column;
-gap:20px;
+display:flex; /*transforma o container em um flex container*/
+flex-direction:column; /* define a direção dos itens dentro do flex container um em cima do outro */
+gap:20px; /* espaçamento entre os itens */
 align-items:center;
 }
 
@@ -88,7 +88,7 @@ margin-top:10px;
 
 .stats div{
 display:flex;
-justify-content:space-between;
+justify-content:space-between; /* como os itens se distribuem dentro do container */
 border-bottom:1px solid #eee;
 padding:3px 0;
 }
